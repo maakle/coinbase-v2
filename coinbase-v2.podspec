@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
-  s.name             = "coinbase-official"
+  s.name             = "coinbase-v2"
   s.version          = "3.3.0"
   s.summary          = "Integrate bitcoin into your iOS application."
   s.description      = <<-DESC
                        Integrate bitcoin into your iOS application with Coinbase's fully featured bitcoin payments API. Coinbase allows all major operations in bitcoin through one API. For more information, visit https://coinbase.com/docs/api/overview.
                        DESC
-  s.homepage         = "https://github.com/coinbase/coinbase-ios-sdk"
+  s.homepage         = "https://github.com/mattk90/coinbase-v2"
   s.license          = 'MIT'
   s.author           = { "Dai Hovey" => "dai@coinbase.com" }
-  s.source           = { :git => "https://github.com/coinbase/coinbase-ios-sdk.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mattk90/coinbase-v2", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/coinbase'
 
   s.platform     = :ios, '7.0'
