@@ -1,5 +1,7 @@
 # coinbase
 
+DISCLAIMER: I'm not claiming to own this code or are related to Coinbase at all. This is a modfied version for my own development purposes.
+
 Integrate bitcoin into your iOS application with Coinbase's fully featured bitcoin payments API. Coinbase allows all major operations in bitcoin through one API. For more information, visit https://developers.coinbase.com/docs/wallet.
 
 To try the example project, install [CocoaPods](http://cocoapods.org), then run `pod try coinbase-official`.
