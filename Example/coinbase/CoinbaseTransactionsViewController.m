@@ -29,28 +29,28 @@
     {
         Coinbase *client = [Coinbase coinbaseWithOAuthAccessToken:accessToken];
 
-        [client getTransactions:^(NSArray *transactions,
-                                  CoinbaseUser *user,
-                                  CoinbaseBalance *balance,
-                                  CoinbaseBalance *nativebalance,
-                                  CoinbasePagingHelper *paging,
-                                  NSError *error)
-        {
-            if (error)
-            {
-                [[[UIAlertView alloc] initWithTitle:@"Error"
-                                            message:[NSString stringWithFormat:@"Could not load: %@", error.localizedDescription]
-                                           delegate:nil
-                                  cancelButtonTitle:@"OK"
-                                  otherButtonTitles:nil] show];
-            }
-            else
-            {
-                self.transactions = transactions;
-                self.currentUser = user;
-                [self.tableView reloadData];
-            }
-         }];
+//        [client getTransactions:^(NSArray *transactions,
+//                                  CoinbaseUser *user,
+//                                  CoinbaseBalance *balance,
+//                                  CoinbaseBalance *nativebalance,
+//                                  CoinbasePagingHelper *paging,
+//                                  NSError *error)
+//        {
+//            if (error)
+//            {
+//                [[[UIAlertView alloc] initWithTitle:@"Error"
+//                                            message:[NSString stringWithFormat:@"Could not load: %@", error.localizedDescription]
+//                                           delegate:nil
+//                                  cancelButtonTitle:@"OK"
+//                                  otherButtonTitles:nil] show];
+//            }
+//            else
+//            {
+//                self.transactions = transactions;
+//                self.currentUser = user;
+//                [self.tableView reloadData];
+//            }
+//         }];
     }
 }
 

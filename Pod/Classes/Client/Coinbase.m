@@ -389,7 +389,7 @@ static NSNumber * __strong requestTimeoutInterval;
 
         if ([response isKindOfClass:[NSDictionary class]])
         {
-            NSArray *responseAccounts = [response objectForKey:@"data"];
+            NSArray *responseAccounts = [response objectForKey:@"accounts"];
 
             NSMutableArray *accounts = [[NSMutableArray alloc] initWithCapacity:responseAccounts.count];
 

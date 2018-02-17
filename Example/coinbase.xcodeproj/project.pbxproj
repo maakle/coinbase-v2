@@ -648,10 +648,12 @@
 				ORGANIZATIONNAME = "Isaac Waller";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
+						DevelopmentTeam = 59Q8U3U6SS;
 						LastSwiftMigration = 0800;
 					};
 					D7F1473C1B03154700B13F98 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 59Q8U3U6SS;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -984,6 +986,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "coinbase/coinbase-Prefix.pch";
 				INFOPLIST_FILE = "coinbase/coinbase-Info.plist";
@@ -1004,6 +1007,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "coinbase/coinbase-Prefix.pch";
 				INFOPLIST_FILE = "coinbase/coinbase-Info.plist";
@@ -1024,6 +1028,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1052,6 +1057,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
