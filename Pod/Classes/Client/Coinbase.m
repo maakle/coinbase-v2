@@ -426,7 +426,7 @@ static NSNumber * __strong requestTimeoutInterval;
 
         if ([response isKindOfClass:[NSDictionary class]])
         {
-            NSArray *responseAccounts = [response objectForKey:@"accounts"];
+            NSArray *responseAccounts = [response objectForKey:@"data"];
 
             NSMutableArray *accounts = [[NSMutableArray alloc] initWithCapacity:responseAccounts.count];
 
@@ -456,7 +456,7 @@ static NSNumber * __strong requestTimeoutInterval;
 
         if ([response isKindOfClass:[NSDictionary class]])
         {
-            CoinbaseAccount *account = [[CoinbaseAccount alloc] initWithDictionary:[response objectForKey:@"account"]];
+            CoinbaseAccount *account = [[CoinbaseAccount alloc] initWithDictionary:[response objectForKey:@"data"]];
             callback(account , error);
         }
     }];
